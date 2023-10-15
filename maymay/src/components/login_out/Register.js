@@ -81,8 +81,9 @@ const Register = () => {
           <Form>
             {!successful && (
               <div>
+                test
                 <div className="form-group">
-                  <label htmlFor="username">Username</label>
+                  <label >Username</label>
                   <Field name="username" type="text" className="form-control" />
                   <ErrorMessage
                     name="username"
@@ -92,7 +93,7 @@ const Register = () => {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="email">Email</label>
+                  <label >Email</label>
                   <Field name="email" type="email" className="form-control" />
                   <ErrorMessage
                     name="email"
@@ -102,7 +103,7 @@ const Register = () => {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="password">Password</label>
+                  <label >Password</label>
                   <Field
                     name="password"
                     type="password"

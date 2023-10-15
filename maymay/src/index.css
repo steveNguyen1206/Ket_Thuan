@@ -30,7 +30,7 @@ code {
 label,
 button {
   font-size: 1.2rem;
-  color: #fff;
+  /* color: #fff; */
   padding: 0.5em 0.9em;
   cursor: pointer;
   border: none;
